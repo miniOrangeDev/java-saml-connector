@@ -5,23 +5,23 @@
 * Include the downloaded jar file in the application.
 * Copy the jar file and paste it in **WEB-INF/lib** folder of your project.
 * Copy the servlet mapping code from [web.xml](integration/web.xml) and paste it in web.xml file of your project.
-* Access SSO connector from your browser with URL **https://<your-domain>/<application-name>/sso**
+* Access SSO connector from your browser with URL **https://&lt;your-domain&gt;/&lt;application-name&gt;/sso**
 * Register into SSO connector by providing a valid email address and password.
 * After registration, log in to the dashboard using the credentials you provided during registration.
 
 ## Step 2: Configure the SSO connector using your Identity Provider details.
 * You can configure the **SP Base URL** or leave this option as it is.
 * You need to provide these **SP Entity ID** and **ACS URL** values while configuring your Identity Provider.
-![Screenshot 1](docs/java_saml_connector_sp_settings.png)
+![Java SAML SSO Connector SP Settings](java_saml_connector_sp_settings.png)
 * Use your Identity Provider details to configure the SSO Connector.
-![Screenshot 2](docs/java_saml_connector_idp_settings.png)
+![Java SAML SSO Connector IdP Settings](java_saml_connector_idp_settings.png)
 * Click on the **Save** button to save your settings.
 
 ## Step 3: Test the Configuration.
 * You can test if the SSO Connector is configured properly or not by clicking on the **Test Configuration** button.
-![Screenshot 3](docs/java_saml_connector_test_configuration.png)
+![Java SAML SSO Connector Test Configuration](java_saml_connector_test_configuration.png)
 * You should see a Test Successful screen as shown below along with the user's attribute values.
-![Screenshot 4](docs/java_saml_connector_test_result.png)
+![Java SAML SSO Connector Test Result](java_saml_connector_test_result.png)
 
 ## Step 4: Setup the SSO connector to work with your Application.
 Once the SSO test is successful, you can provide the Redirect Endpoint, to where the users will be redirected after logging in.

@@ -18,10 +18,10 @@ miniOrange Java SAML Single Sign On (SSO) Connector acts as a SAML Service Provi
 ## We can connect with any External IDP/Directory
 Our Java Single Sign On (SSO) Connector provides user authentication from external directories like ADFS, Microsoft Active Directory, Azure AD, OpenLDAP, Google, AWS Cognito etc. It also provides user authentication with other IDPs like Shibboleth, PING, Okta, OneLogin, KeyCloak, Salesforce, SimpleSAMLphp, OpenAM, miniOrange, Centrify, RSA, IBM, Oracle, Bitium, WSO2, NetIQ and all SAML 2.0 capable Identity Providers.
 
+Can't find your IDP ? Contact us on [info@xecurify.com](mailto:info@xecurify.com). We'll help you set it up in no time.
+
 ## Our SSO Connector works with any Java Framework
 Our Java Single Sign On (SSO) Connector provides user authentication with any Java Framework like Spring Boot, Wicket, Struts, Tapestry, JSF, Hibernate, Blade, JHipster, Play, Spark, etc
-
-Can't find your IDP ? Contact us on [info@xecurify.com](mailto:info@xecurify.com). We'll help you set it up in no time.
 
 ### Deployment
 See [INSTALL.md](docs/INSTALL.md) for a step by step guide.
