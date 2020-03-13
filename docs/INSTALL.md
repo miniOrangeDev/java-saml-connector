@@ -4,7 +4,7 @@
 * Download [miniOrange Java SAML Single Sign On (SSO) Connector jar file](http://plugins.miniorange.com/go/java-saml-single-sign-sso-connector).
 * Include the downloaded jar file in the application.
 * Copy the jar file and paste it in **WEB-INF/lib** folder of your project.
-* Copy the servlet mapping code from [web.xml](integration/web.xml) and paste it in web.xml file of your project.
+* Copy the servlet mapping code from [web.xml](https://github.com/miniOrangeDev/java-saml-connector/integration/web.xml) and paste it in web.xml file of your project.
 * Access SSO connector from your browser with URL **https://&lt;your-domain&gt;/&lt;application-name&gt;/sso**
 * Register into SSO connector by providing a valid email address and password.
 * After registration, log in to the dashboard using the credentials you provided during registration.
